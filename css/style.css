@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.btn-start {
+    display: block;
+    background-color: rgb(154, 73, 168);
+    border-radius: 15px;
+    margin: 2rem auto;
+    padding: 1rem;
+    color: azure;
+}
+
+.container {
+    width: 900px;
+    height: 1200px;
+    border: 1px solid #777;
+    margin: 1rem auto;
+    background-image: url("../img/pexels-photo-5950562.jpeg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas: 
+    "Day1 Day2 Day3"
+    "Day4 Day5 Day6"
+    "Day7 Day8 Day9"
+    "Day10 Day11 Day12"
+    "Day13 Day14 Day15"
+    "Day16 Day17 Day18"
+    "Day19 Day20 Day21"
+    "Day22 Day23 Day24"
+    ;
+}
+
+.image {
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    height: 100%;
+    width: 100%;
+    color: azure;
+    border: 2px solid #fff;
+    padding: 1rem;
+    transition: opacity 3s;
+}
